@@ -48,3 +48,23 @@ html, body{
 .navbar__item--active {
     color: black;
 }
+
+@media(min-width: 600px){
+    .navbar__mobile__button__container,
+    .navbar__mobile {
+        display: none;
+    }
+
+    .navbar__desktop {
+        display: block;
+        text-align: center;
+        height: 25px;
+    }
+
+    .navbar__desktop__item {
+        display: inline-block;
+        margin-top: 3px;
+        padding: 0px 15px;
+    }
+
+}
