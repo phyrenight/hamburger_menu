@@ -1,0 +1,15 @@
+.title__header {
+    text-align: center;
+}
+
+.navbar__desktop {
+    display: none;
+}
+
+.navbar__mobile{
+    text-align: center;
+}
+
+.button__menu--close {
+    display:none;
+}
